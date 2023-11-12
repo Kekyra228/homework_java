@@ -12,6 +12,7 @@ body {
 .firstsection {
     height: 1024px;
     background-image: url(img/background\ \(2\).png);
+    width: 100vw;
 }
 .firstsection__header {
     padding-top: 217px;
@@ -24,6 +25,7 @@ body {
 
 }
 .firstsection__text {
+    width: 481px;
     color: #FFF;
     font-size: 18px;
     font-style: normal;
@@ -52,23 +54,72 @@ line-height: 32px;
 }
 .secondsection {
     background-color: #000915;
-    height: 556px;
+    min-height: 556px;
 }
 .linkGame {
     position: relative;
     padding-top: 128px;
     display: flex;
+    flex-wrap: wrap;
     gap: 32px;
 }
+.linkGame__img {
+
+}
+
+
 .linkGame__text {
     color: #FFF;
     font-family: Montserrat;
     font-size: 24px;
-    font-style: normal;
     font-weight: 600;
     line-height: 32px;
     position: absolute;
     bottom: 32px;
     padding-left: 32px;
     
+}
+@media (max-width:767px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .firstsection {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .firstsection__header {
+        padding-top: 239px;
+        width: 343px;
+        font-size: 32px;
+      
+    }
+    .firstsection__text {
+        width: 343px;
+        font-size: 14px;
+        line-height: 22px
+    }
+    .firstsection__text-special {
+        font-size: 14px;
+        line-height: 22px
+    }
+    .secondsection {
+        display: flex;
+        align-items: center;
+        width: 100vw;
+        height: 1221px;
+    }
+ 
+    .linkGame__img {
+      width: 100%;
+    }
+    .linkGame__text {
+        position: relative;
+        bottom: 64px;
+        text-decoration: none;
+        border-bottom: none;
+        outline: none;
+    }
 }
