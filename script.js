@@ -1,30 +1,35 @@
-let age =10;
-//alert (10);
-let number1=2
+let a =10;
+//alert (a);
+a =20;
+//alert(a);
 
 let year=2007;
-//alert (year)
+//alert (year);
 
-let nameCreater="Джеймс Гослинг";
-//alert ("Джеймс Гослинг");
+let nameCreator="Джеймс Гослинг";
+alert (nameCreator);
 
-let result1 = age + number1;
+let b=10;
+let c=2;
+
+
+let result1 = b + c;
 console.log (result1);
 
-let result2 = age - number1;
+let result2 = b - c;
 console.log (result2);
 
-let result3 = age * number1;
+let result3 = b * c;
 console.log (result3);
 
-let result4 = age / number1;
+let result4 = b / c;
 console.log (result4);
 
-let result5 = number1 ** 5;
+let result5 = b ** c;
 console.log (result5); //алерт
 
-let a = 9;
-let b = 2;
+let D = 9;
+let I = 2;
 let result6= 9%2;
 //alert (`задание 6 ${result6}`); 
 
@@ -45,9 +50,15 @@ let resultAge = age1;
 let user = {
     name: 'kit',
     ageUser:22,
-    isAdmin:true,
-    cityofresidence:"Samara",
-}
+    isAdmin:true
+};
+
+console.log(user[`ageUser`]);
+
+user.ageUser=23;
+
+user.cityofresidence="Samara";
+delete user.cityofresidence;
 
 // let info = prompt ('Какую информацию вы хотите узнать о пользователе?');
 //alert(user[info]); 
