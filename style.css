@@ -12,7 +12,9 @@ body {
 .firstsection {
     height: 1024px;
     background-image: url(img/background\ \(2\).png);
-    width: 100vw;
+}
+.game_welcome {
+
 }
 .firstsection__header {
     padding-top: 217px;
@@ -52,6 +54,13 @@ line-height: 32px;
     font-weight: 400;
     line-height: normal;
 }
+
+.firstsection__button:hover {
+    background: #EB443F;
+}
+
+
+
 .secondsection {
     background-color: #000915;
     min-height: 556px;
@@ -64,7 +73,11 @@ line-height: 32px;
 }
 .linkGame {
     position: relative;
+}
 
+.linkGame:hover {
+    border-radius: 16px;
+    border: 3px solid #44D2FF;
 }
 
 .linkGame__text {
@@ -83,8 +96,7 @@ line-height: 32px;
     min-height: 800px;
     background-color: #000915;
     display: flex;
-    
-    gap: 135px;
+    justify-content: space-between;
 }
 .seasons {
     display: flex;
@@ -130,13 +142,24 @@ line-height: 32px;
     width: 485px;
     height: 333px;
 }
+.fourthsection {
+    min-height: 800px;
+    background-color: #000915;
+    display: flex;
+    justify-content: space-between;
+}
+.remember_words_img {
+    padding-top: 239px;
+    width: 481px;
+    height: 322px;
+}
 
 @media (max-width:767px) {
     .center {
         padding-left: 16px;
         padding-right: 16px;
     }
-    .firstsection {
+    .game_welcome {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -160,7 +183,6 @@ line-height: 32px;
     .secondsection {
         display: flex;
         align-items: center;
-        width: 100vw;
         height: 1221px;
     }
 
@@ -169,8 +191,44 @@ line-height: 32px;
         row-gap: 32px;
     }
  
- 
     .linkGame__text {
         right: 247px;
+    }
+    .thirdsection {
+        flex-direction: column;
+    }
+    .seasons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .thirdsection__header {
+        font-size: 32px;
+
+    }
+    .thirdsection__text {
+        width: 343px;
+        font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px;
+    }
+    .thirdsection__button {
+        padding-right: 90px;
+    }
+    .seasons__img {
+        width: 344px;
+        height: 236px;
+        gap: 64px;
+        padding-top: 0;
+    }
+    .fourthsection {
+        flex-direction: column-reverse;
+    }
+    .remember_words_img {
+        padding-top: 0;
+        width: 344px;
+        height: 231px;
     }
 }
