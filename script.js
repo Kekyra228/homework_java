@@ -7,7 +7,7 @@ let year=2007;
 //alert (year);
 
 let nameCreator="Джеймс Гослинг";
-alert (nameCreator);
+//alert (nameCreator);
 
 let b=10;
 let c=2;

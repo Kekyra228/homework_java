@@ -55,18 +55,17 @@ line-height: 32px;
 .secondsection {
     background-color: #000915;
     min-height: 556px;
+ 
+}
+
+.link_game {
+    display: flex;
+    column-gap: 32px;
 }
 .linkGame {
     position: relative;
-    padding-top: 128px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 32px;
-}
-.linkGame__img {
 
 }
-
 
 .linkGame__text {
     color: #FFF;
@@ -75,10 +74,63 @@ line-height: 32px;
     font-weight: 600;
     line-height: 32px;
     position: absolute;
+    right: 268px;
     bottom: 32px;
-    padding-left: 32px;
     
 }
+
+.thirdsection {
+    min-height: 800px;
+    background-color: #000915;
+    display: flex;
+    
+    gap: 135px;
+}
+.seasons {
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+}
+.thirdsection__header {
+    padding-top: 282px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.thirdsection__text {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 32px;
+    width: 584px;
+}
+
+.thirdsection__button {
+    display: block;
+    width: 234px;
+    height: 49px; 
+    padding-left: 74px;
+    padding-top: 13px;
+    box-sizing: border-box;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    border-radius: 30px;
+    background: #9C0332;
+      
+}
+
+.seasons__img {
+    padding-top: 233px;
+    width: 485px;
+    height: 333px;
+}
+
 @media (max-width:767px) {
     .center {
         padding-left: 16px;
@@ -111,15 +163,14 @@ line-height: 32px;
         width: 100vw;
         height: 1221px;
     }
- 
-    .linkGame__img {
-      width: 100%;
+
+    .link_game {
+        flex-wrap: wrap;
+        row-gap: 32px;
     }
+ 
+ 
     .linkGame__text {
-        position: relative;
-        bottom: 64px;
-        text-decoration: none;
-        border-bottom: none;
-        outline: none;
+        right: 247px;
     }
 }
