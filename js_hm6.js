@@ -1,11 +1,12 @@
 // 1 звдвние
-// const arr = [1, 5, 4, 10, 0, 3];
-// for (let  = items0; items< arr.length; items++) {
-    // console.log(arr[i]);
-    //     if (arr[items]===10) break;
-    //     console.log(arr[items])
-    // }
-    
+const arr = [1, 5, 4, 10, 0, 3];
+for (let items=0; items< arr.length; items++) {
+    console.log(arr[items]);
+         if (arr[items]===10) 
+         break;
+        
+}
+console.log(arr)
     
     
     // 2 задание 
@@ -61,7 +62,7 @@
     
     // задание 8  
     // const str = 'abcdef';
-    // const mass = [...str];
+    // const mass = str.split("");
     // mass.reverse();
     // mass.join("")
     // console.log(mass)
@@ -87,9 +88,9 @@
     
     // 12 задание ???
     // function getWords(words) {
-    //     return words.map((getlenhWords) => getlenhWords.lenght)
+    //     return words.map((getlenhWords) => getlenhWords.length)
     // }
-    // console.log(getWords['слово', '', 'слог', 'длинное предложение', 'буква'])
+    // console.log(getWords('слово', '', 'слог', 'длинное предложение', 'буква'))
 
     // 13 
     function filterPositive(array) {
