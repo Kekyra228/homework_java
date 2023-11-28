@@ -1,12 +1,12 @@
 // 1 звдвние
-const arr = [1, 5, 4, 10, 0, 3];
-for (let items=0; items< arr.length; items++) {
-    console.log(arr[items]);
-         if (arr[items]===10) 
-         break;
+// const arr = [1, 5, 4, 10, 0, 3];
+// for (let items=0; items< arr.length; items++) {
+//     console.log(arr[items]);
+//          if (arr[items]===10) 
+//          break;
         
-}
-console.log(arr)
+// }
+// console.log(arr)
     
     
     // 2 задание 
@@ -93,13 +93,13 @@ console.log(arr)
     // console.log(getWords('слово', '', 'слог', 'длинное предложение', 'буква'))
 
     // 13 
-    function filterPositive(array) {
-    let result = [];
-    for (let i = 0; i < array.length; i++) {
-        if (array[i]< 0) {
-            result.push(array[i])
-        }
-    }
-    return result
- }
- filterPositive([-1, 0, 5, -10, 56]);
+//     function filterPositive(array) {
+//     let result = [];
+//     for (let i = 0; i < array.length; i++) {
+//         if (array[i]< 0) {
+//             result.push(array[i])
+//         }
+//     }
+//     return result
+//  }
+//  filterPositive([-1, 0, 5, -10, 56]);
