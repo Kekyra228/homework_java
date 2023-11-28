@@ -136,6 +136,41 @@ line-height: 32px;
     background: #9C0332;
       
 }
+.thirdsection__button:hover {
+    background: #EB443F;
+}
+.riddels {
+    min-height: 800px;
+    background-image: url(img/unsplash_iO0I6-mhDEY.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+}
+.textRiddels {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 32px; 
+    width:1200px
+}
+.foot {
+    min-height: 80px;
+    background: #000915;
+}
+.footerText {
+    padding-top: 32px;
+    padding-left: 530px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 400;
+
+}
 
 .seasons__img {
     padding-top: 233px;
@@ -230,5 +265,10 @@ line-height: 32px;
         padding-top: 0;
         width: 344px;
         height: 231px;
+    }
+    .textRiddels {
+        font-size: 14px;
+        line-height: 22px;
+        width: 343px;
     }
 }
