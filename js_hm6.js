@@ -103,3 +103,14 @@
 //     return result
 //  }
 //  filterPositive([-1, 0, 5, -10, 56]);
+
+// const arr = [];
+// const min = 0;
+// const max = 10;
+// const len = 5;
+
+// for (let i = 0; i < len; i++) {
+//      arr.push(Math.round(Math.random() * Math.abs(min - max)) + Math.min(max, min));
+
+// }
+// console.log(arr)
